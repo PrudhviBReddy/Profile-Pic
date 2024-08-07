@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+
+form{
+  display: inline-block;
+  background-color: teal;
+  color: aliceblue;
+  padding: 10px;
+}
+
+form div{
+  margin: 20px;
+}
+
+form label{
+  display: inline-block;
+  width: 100px;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: burlywood;
+  padding: 10px;
+}
+
+a{
+  text-decoration: none;
+}
+
+span{ 
+  display: inline-block;
+  width: 100px;
+  text-align: left;
+  margin-left: 10px;
+}
+.gender{
+margin-left: -130px;
+}
+
+.ms{
+  margin-left: -120px;
+}
+.state{
+  margin-left: -90px;
+}
+.state select{
+  width: 170px;
+  height: 25px;
+}
+.language{
+  margin-left: -70px;
+}
+
+.pic{
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  /* border: 2px solid gray; */
+}
